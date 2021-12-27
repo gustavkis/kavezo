@@ -1,0 +1,23 @@
+.banner {
+    height: 400px;
+    background-image: url(../IMG/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #1f5b25;
+}
+body {
+    background-color: #fbefdb;
+}
+li{
+    list-style: none;
+}
+li img{
+    height: 1rem;
+}
+a{
+    color: #20a745;
+}
+a:hover {
+    color: #20a745;
+    
+}

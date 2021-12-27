@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="CSS/kave.css" />
+    <title>Kávézó</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"
+          >Lucky
+          <img src="img/clover.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-link active" href="index.html">Főoldal</a>
+            <a class="nav-link" href="kave.html">Kávéfajták</a>
+            <a class="nav-link" href="suti.html">Sütemények</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#">Bejelentkezés</a>
+            <a class="nav-link" href="#">Regisztráció</a>
+          </div>
+        </div>
+      </nav>
+      <div class="banner"></div>
+      <div class="container">
+        <div>
+          <h1 class="text-center p-3">Lucky - Sütemény kávé mellé</h1>
+          <div class="row">
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img
+                  src="IMG/coissant-1.png"
+                  class="card-img-top"
+                  alt="espresso"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-success">
+                    <a href="#" data-toggle="modal" data-target="#idCroissant"
+                      >Croissant</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img src="IMG/cantuccini_1.png" class="card-img-top" alt="cantuccini" />
+                <div class="card-body">
+                  <h5 class="card-title text-success">
+                    <a href="#" data-toggle="modal" data-target="#idCantuccini"
+                      >Cantuccini</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img src="IMG/financiers_1.png" class="card-img-top" alt="melange" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idFinancier"
+                      >Financier</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img
+                  src="IMG/muffin_1.png"
+                  class="card-img-top"
+                  alt="ristretto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idMuffin"
+                      >Muffin</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img src="IMG/csokitorta_1.png" class="card-img-top" alt="lungo" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a
+                      href="#"
+                      data-toggle="modal"
+                      data-target="#idCsokoladetorta"
+                      >Csokoládétorta</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img
+                  src="IMG/mokkatorta_1.png"
+                  class="card-img-top"
+                  alt="americano"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idMokkatorta"
+                      >Mokka torta</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idCroissant"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/coissant-1.png"
+                        class="img-fluid"
+                        alt="espresso"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                      <h4>Croissant</h4>
+                      <p>
+                        A legismertebb verzió az, hogy először Bécsben
+                        készítettek croissant, a török ostrom leverésének
+                        ünneplésekor, a hold alak pedig a törökök zászlaját
+                        szimbolizálja, mivel a “croissant” szó szerint „növekvő
+                        holdat” jelent. A magyar pékek szerint azonban a
+                        croissant akkor született, mikor a XVII. században a
+                        török vissza akarta foglalni Budát. Az oszmán sereg
+                        megpróbált betörni az elbarikádozott királyi városba, ám
+                        a magyarok elkeseredetten védekeztek. Ekkor a félhold
+                        harcosai cselt eszeltek ki: éjszaka alagutat ástak, hogy
+                        a városfal alatt jussanak be. Az éj leple alatt közeledő
+                        törökökre az épp műszakukat teljesítő pékek, a harangok
+                        félreverésével figyelmeztették a lakosságot . Ezzel
+                        megakadályozták, hogy a törökök bevegyék Budát. A diadal
+                        jeléül ezután a török zászló félhold alakjára formázott
+                        a leveles tésztát sütöttek a város lakóinak. Bár ez a
+                        legenda nélkülöz minden valóságalapot, azért a croissant
+                        egy kicsit a miénk is…:)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idCantuccini"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="img/cantuccini_1.png" class="img-fluid" alt="cantuccini" />
+                    </div>
+                    <div class="col-sm-8">
+                      <h4>Cantuccini</h4>
+                      <p>
+                        A cantuccini vagy cantucci egy olyan ősrégi olasz,
+                        eredetileg Genovából származó édesség, amit ma már az
+                        egész országban és külföldön is szívesen fogyasztanak.
+                        Ma már simán, akár kávé mellé is adják, vagy csak
+                        “natúr” megeszik, de régen ezt a híres toszkán
+                        desszertbor, a Vin Santo (“szent bor”) mellé
+                        fogyasztották. Volt egy ceremóniája a fogyasztásának,
+                        ugyanis az igazi finom ízét úgy adja ki a legjobban, ha
+                        a borba belemártjuk, a Cantuccini egy kicsit felszív a
+                        borból, majd a szánkba vesszük és megesszük.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idFinancier"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/financiers_1.png"
+                        class="img-fluid"
+                        alt="financier"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                      <h4>Financier</h4>
+                      <p>
+                        A financier a franciák egyik szerintem legfinomabb
+                        aprósüteménye. Különleges ízéért a mandulaliszt és a
+                        beurre noisette, azaz az enyhén mogyorószínűre pirított
+                        vaj a felelős. Az eredmény egy tömör, gazdag, szinte már
+                        marcipános állagú, boldogító sütemény.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idMuffin"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/muffin_1.png"
+                        class="img-fluid"
+                        alt="dopio"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                      <h4>Muffin</h4>
+                      <p>
+                        Bár a nevük ugyanaz, az Amerikában elterjedt muffin
+                        valójában teljesen más, mint a régi angol muffin. Már
+                        egy 1700-as évekből származó amerikai szakácskönyv is
+                        megemlíti, mégis a cupcake a 19. században indult el
+                        hódító útjára, és forradalminak számított, mivel az
+                        akkori süteményekhez képest villámgyorsan elkészült.
+                        Mivel a felszíne lapos volt, dekorálhatták cukormázzal,
+                        csokoládémázzal vagy épp habbal. Ez különösen előnyös
+                        volt az időt és energiát megspórolni kívánó
+                        háziasszonyoknak. Ami a név kialakulását illeti, két
+                        teória létezik: az első szerint a sütiket eredetileg
+                        csészében (cup) sütötték, a második szerint a
+                        hozzávalókat mérték ki csészével. A speciális muffin
+                        sütőformák a 20. században terjedtek el.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idCsokoladetorta"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="img/csokitorta_1.png" class="img-fluid" alt="dopio" />
+                    </div>
+                    <div class="col-sm-8">
+                      <h4>Csokoládétorta</h4>
+                      <p>
+                        A csokoládétorta egy általános desszerttorta, melyet
+                        különböző alkalmakkor, születésnapi bulin, esküvőn
+                        szokás felszolgálni, de a legtöbb cukrászdában is
+                        fogyasztható. Elsőszámú összetevője a csokoládé. Számos
+                        eltérő típusú csokoládétorta létezik, ami a hozzávalók
+                        változtatásától és a csokoládé ízétől függ. A
+                        lehetőségek között a csokoládén kívüli további
+                        ízesítőket, több különböző féle csokoládé egyszerre való
+                        felhasználását és számos más fortélyt találhatunk.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idMokkatorta"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/mokkatorta_1.png"
+                        class="img-fluid"
+                        alt="dopio"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                      <h4>Mokka torta</h4>
+                      <p>
+                        Ha vannak köztetek kávéimádók, akkor ez a torta
+                        valószínűleg nagy kedvencetek lesz. Nem csak a
+                        tésztájában hanem a krémben is van egy jó adag kávé,
+                        úgyhogy már egy szelet sütivel is remekül indíthatjátok
+                        a napotokat!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+      </div>
+    </div>
+    <footer class="container-fluid text-white">
+      <div class="row">
+        <div class="col-md-4 col-12 offset-md-2">
+          <h2>Kapcsolat</h2>
+          <ul>
+            <li><img src="img/letter.svg" alt="" /> Lucky Kávézó</li>
+            <li><img src="img/email.svg" alt="" /> lucky@gmail.com</li>
+            <li><img src="img/phone.svg" alt="" /> +36-33-44-1234</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <h2>Kávé Magazin</h2>
+          <p>Íratkozz fel a magazinunkra!</p>
+          <form class="form-inline">
+            <input type="text" class="form-control" placeholder="email" />
+            <button class="btn btn-success">Felíratkozom</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="CSS/kave.css" />
+    <title>Kávézó</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"
+          >Lucky
+          <img src="img/clover.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-link active" href="index.html">Főoldal</a>
+            <a class="nav-link" href="kave.html">Kávéfajták</a>
+            <a class="nav-link" href="suti.html">Sütemények</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#">Bejelentkezés</a>
+            <a class="nav-link" href="#">Regisztráció</a>
+          </div>
+        </div>
+      </nav>
+      <div class="banner"></div>
+      <div class="container">
+        <div>
+          <h1 class="text-center p-3">Lucky - Kávéfajták</h1>
+          <div class="row">
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img
+                  src="IMG/espresso.png"
+                  class="card-img-top"
+                  alt="espresso"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-success">
+                    <a href="#" data-toggle="modal" data-target="#idEspresso"
+                      >Espresso</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img src="IMG/dopio.png" class="card-img-top" alt="dopio" />
+                <div class="card-body">
+                  <h5 class="card-title text-success">
+                    <a href="#" data-toggle="modal" data-target="#idDopio"
+                      >Dopio</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img src="IMG/melange.png" class="card-img-top" alt="melange" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idMelange"
+                      >Melange</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img
+                  src="IMG/ristretto.png"
+                  class="card-img-top"
+                  alt="ristretto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idRistretto"
+                      >Ristretto</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img src="IMG/lungo.png" class="card-img-top" alt="lungo" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idLungo"
+                      >Lungo</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center mb-3">
+              <div class="card">
+                <img
+                  src="IMG/americano.png"
+                  class="card-img-top"
+                  alt="americano"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" data-toggle="modal" data-target="#idAmericano"
+                      >Americano</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idEspresso"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/espresso.png"
+                        class="img-fluid"
+                        alt="espresso"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Espresso</h4>
+                      <p>
+                        Az espresso az olaszoknál egyet jelent a kávéval,
+                        olyannyira, hogy általában csak “egy kávét” (olaszul:
+                        “un caffé”) kérnek, ha espressót szeretnének inni.
+                        (Egyébként az espresso kávé természetesen magyaros,
+                        presszó vagy eszpresszó formában leírva is helyes.) A
+                        valódi olasz espresso készítéséhez 7 gramm őrölt kávét
+                        használunk fel, ami 90 fokos vízzel készül 9 bar
+                        nyomáson, és 20-25 másodpercig csapoljuk. A kész kávé
+                        25-30 ml, és állandó kísérője a tetején képződő
+                        bársonyos hab, a crema. Az olaszoknál az espresso
+                        klasszikus fekete kávé, tehát magában, tej és cukor
+                        nélkül isszák.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idDopio"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="img/dopio.png" class="img-fluid" alt="dopio" />
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Dopio</h4>
+                      <p>
+                        A doppió kávé trükkös, mert névről szinte senki sem
+                        ismeri, mégis mindenki találkozott már vele, aki egy
+                        duplát szürcsölgetett. A kávé neve ugyanis ezt jelenti
+                        olaszul, vagyis egy dupla eszpresszóról van szó, amit
+                        kétszeres mennyiségű őrleményből, kétszeres
+                        vízmennyiséggel készítünk.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idMelange"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/melange.png"
+                        class="img-fluid"
+                        alt="dopio"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Melange</h4>
+                      <p>
+                        A melange leginkább Ausztriában, Svájcban és
+                        Hollandiában népszerű. Gyakran hasonlítják Latte-hoz és
+                        Cappuccinóhoz, de egyesek a kettő keverékeként
+                        jellemzik. Eredetileg a melange a bécsi kávéházakban
+                        terjedt el a 18. században, ahol bécsi pörkölésű kávéból
+                        készítették: a kávé és a tej ötven-ötven százalékban
+                        tejhabbal keverve a tetején. A „Wiener Melange” címkét
+                        gyakran használják erre az italra Bécsen kívül is, annak
+                        ellenére, hogy szülővárosában senki sem hívja így az
+                        italt.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idRistretto"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/ristretto.png"
+                        class="img-fluid"
+                        alt="dopio"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Ristretto</h4>
+                      <p>
+                        A ristretto kávé leggyakoribb elkészítési módja
+                        egyszerűen lerövidíti az extrakciós időt, tehát a
+                        ristretto íze így nagyon intenzív, kiemelkedően édes
+                        tónusokkal és markáns savassággal. A sötéten pörkölt
+                        keverékek esetében a keserűség is sokkal hangsúlyosabb
+                        lehet. A ristretto színe is hangsúlyos, mely a sötét
+                        mogyoróra vagy nugátra emlékezett. Ha megfelelően van
+                        elkészítve, akkor a ristretto jelentős, akár krémes
+                        sűrűségével is kitűnik.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idLungo"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="img/lungo.png" class="img-fluid" alt="dopio" />
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Lungo</h4>
+                      <p>
+                        A lungo kávé jelentése: hosszú kávé. Ennek megfelelően
+                        az espresso lungo, nem más mint egy espresso kávé, amit
+                        kb. 50-70 ml forró vízzel higítunk. Mivel hígabb, íze
+                        kevésbé intenzív. Egyes helyeken tovább engedik az
+                        espresso-t az eredeti receptúrához képest, máshol pedig
+                        megfelelő mennyiségű vizet tesznek hozzá.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!---Modal-->
+
+        <div
+          class="modal fade"
+          id="idAmericano"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success" id="exampleModalLabel">
+                  Részletes leírás
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify text-success">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img
+                        src="img/americano.png"
+                        class="img-fluid"
+                        alt="dopio"
+                      />
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>Americano</h4>
+                      <p>
+                        Az americano is egy hosszú kávé, a lungohoz hasonlóan
+                        forró víz hozzáadásával készül. Egészen pontosan a
+                        csészébe először a megfelelő mennyiségű - 150-180 ml -
+                        forró vizet töltjük bele, és ebbe csapoljuk az
+                        espressót. Az americano kávé íze a lungóhoz képest
+                        közelebb áll a filteres kávéhoz.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Bezár
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+      </div>
+    </div>
+    <footer class="container-fluid text-white">
+      <div class="row">
+        <div class="col-md-4 col-12 offset-md-2">
+          <h2>Kapcsolat</h2>
+          <ul>
+            <li><img src="img/letter.svg" alt="" /> Lucky Kávézó</li>
+            <li><img src="img/email.svg" alt="" /> lucky@gmail.com</li>
+            <li><img src="img/phone.svg" alt="" /> +36-33-44-1234</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <h2>Kávé Magazin</h2>
+          <p>Íratkozz fel a magazinunkra!</p>
+          <form class="form-inline">
+            <input type="text" class="form-control" placeholder="email" />
+            <button class="btn btn-success">Felíratkozom</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
